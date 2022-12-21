@@ -39,7 +39,7 @@
     "priority": 3,
     "action": { "type": "allow" },
     "condition": {
-      "regexFilter": "^https?://[^/]*\\breddit.com/(poll|rpan|settings|topics|community-points)",
+      "regexFilter": "^https?://[^/]*\\breddit.com/(poll|rpan|settings|topics|community-points|user/[^/]*/draft/)",
       "resourceTypes": [ "main_frame", "sub_frame" ]
     }
   }
